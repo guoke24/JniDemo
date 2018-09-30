@@ -16,6 +16,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets {
+        main() {
+            jniLibs.srcDirs = ['src/main/libs'] // 指定引用so文件的路径
+            jni.srcDirs = [] //屏蔽掉默认的jni编译生成过程
+        }
+    }
 }
 
 dependencies {
