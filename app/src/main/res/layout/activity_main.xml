@@ -22,9 +22,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="8dp"
-            android:text="test_2"
+            android:text="md5"
             android:textSize="15sp"
-            android:onClick="test_2"
+            android:onClick="test_md5"
             />
 
 
