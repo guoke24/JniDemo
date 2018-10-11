@@ -11,6 +11,6 @@ git clone 之后，
 
 * 修改根目录下的.iml文件名为[NewName].iml，及该文件中的external.linked.project.id=[NewName]。（如果没有.iml文件，AS会自动生成一个，那就不必修改）
 
-* 修改.idea/modules.xml里面的 <module fileurl="file://$PROJECT_DIR$/[NewName].iml" filepath="$PROJECT_DIR$/[NewName].iml" />
+* 修改.idea/modules.xml里面的 fileurl="file://$PROJECT_DIR$/[NewName].iml" 和 filepath="$PROJECT_DIR$/[NewName].iml"
 
 * 编译一遍，根据报错提示来修改剩余的地方。一般是：import com.topwise.httpdemo.R;还有main/AndroidManifest.xml的包名
