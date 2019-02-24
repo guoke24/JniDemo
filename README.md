@@ -21,3 +21,6 @@ git clone 之后，
 * app/src/main/res/layout/activity_main.xml
 * app/src/main/res/layout/left_scroll.xml
 * app/src/main/res/layout/show_item.xml
+
+# jni的编译
+* 在AndroidStudio的终端，进入到jni路径，执行ndk命令，即可编译完成。
